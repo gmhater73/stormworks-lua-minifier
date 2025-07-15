@@ -156,7 +156,7 @@ const globalFunctions = [
   "assert",
   "error",
   
-  // opencomputers
+  // not sw
   "getmetatable",
   "load",
   "pcall",
@@ -234,9 +234,9 @@ function minify(string, options) {
         const entry = body[i];
         const nextEntry = body[i + 1];
         if (i < body.length - 1 && entry.type === "LocalStatement" && nextEntry.type === "LocalStatement") {
-          let cunt = false;
-          for (const v of entry.variables) if (searchForIdentifier(nextEntry, v.name)) { cunt = true; break; }
-          if (cunt) continue;
+          let c = false;
+          for (const v of entry.variables) if (searchForIdentifier(nextEntry, v.name)) { c = true; break; }
+          if (c) continue;
           entry.init = entry.init.concat(nextEntry.init);
           entry.variables = entry.variables.concat(nextEntry.variables);
           //console.log(entry);
