@@ -4,6 +4,8 @@ awesome stormworks lua minifier for stormworks the building and rescuing and sho
 
 imported from glitch.com after they [ran out of money for free hosting](https://blog.glitch.com/post/changes-are-coming-to-glitch/)
 
+**NOTE: cli-tool was created entirely using GitHub Copilot agent mode (see pull request)**
+
 ## Web Interface
 
 go to [https://gmhater73.github.io/stormworks-lua-minifier/](https://gmhater73.github.io/stormworks-lua-minifier/) for the web-based minifier
