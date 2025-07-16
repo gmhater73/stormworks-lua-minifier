@@ -1,0 +1,38 @@
+{
+  "name": "stormworks-lua-minifier",
+  "version": "1.0.0",
+  "description": "awesome stormworks lua minifier for stormworks the building and rescuing and shooting and industry game on steam",
+  "main": "lib/minifier.js",
+  "bin": {
+    "stormworks-lua-minifier": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "lua",
+    "minifier",
+    "stormworks",
+    "minify",
+    "compression"
+  ],
+  "author": "gmhater73",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmhater73/stormworks-lua-minifier.git"
+  },
+  "homepage": "https://gmhater73.github.io/stormworks-lua-minifier/",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "luamin.js",
+    "luaparse.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
