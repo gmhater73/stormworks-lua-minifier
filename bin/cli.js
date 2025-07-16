@@ -8,7 +8,7 @@ function showHelp() {
   console.log(`
 Stormworks Lua Minifier CLI
 
-Usage: stormworks-lua-minifier <input-file> <output-file> [options]
+Usage: swluamin <input-file> <output-file> [options]
 
 Arguments:
   input-file     Input Lua file to minify
@@ -22,9 +22,9 @@ Options:
   --help, -h                   Show this help message
 
 Examples:
-  stormworks-lua-minifier input.lua output.lua
-  stormworks-lua-minifier script.lua minified.lua --no-shorten-string-literals
-  stormworks-lua-minifier code.lua min.lua --no-rename-globals --no-coalesce-locals
+  swluamin input.lua output.lua
+  swluamin script.lua minified.lua --no-shorten-string-literals
+  swluamin code.lua min.lua --no-rename-globals --no-coalesce-locals
 `);
 }
 
