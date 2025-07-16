@@ -1,10 +1,10 @@
 {
-  "name": "stormworks-lua-minifier",
+  "name": "swluamin",
   "version": "1.0.0",
   "description": "awesome stormworks lua minifier for stormworks the building and rescuing and shooting and industry game on steam",
   "main": "lib/minifier.js",
   "bin": {
-    "stormworks-lua-minifier": "bin/cli.js"
+    "swluamin": "bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
