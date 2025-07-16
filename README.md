@@ -1,10 +1,8 @@
-# stormworks-lua-minifier
+# swluamin
 
 awesome stormworks lua minifier for stormworks the building and rescuing and shooting and industry game on steam the digital game distribution front-end by valve corporation
 
-imported from glitch.com after they [ran out of money for free hosting](https://blog.glitch.com/post/changes-are-coming-to-glitch/)
-
-**NOTE: cli-tool was created entirely using GitHub Copilot agent mode (see pull request)**
+**NOTE: cli-tool was adapted from the browser version entirely using GitHub Copilot agent mode (see pull request)**
 
 ## Web Interface
 
@@ -17,19 +15,19 @@ go to [https://gmhater73.github.io/stormworks-lua-minifier/](https://gmhater73.g
 Install globally via npm:
 
 ```bash
-npm install -g stormworks-lua-minifier
+npm install -g swluamin
 ```
 
 Or use with npx (no installation required):
 
 ```bash
-npx stormworks-lua-minifier input.lua output.lua
+npx swluamin input.lua output.lua
 ```
 
 ### Usage
 
 ```bash
-stormworks-lua-minifier <input-file> <output-file> [options]
+swluamin <input-file> <output-file> [options]
 ```
 
 **Arguments:**
@@ -47,16 +45,16 @@ stormworks-lua-minifier <input-file> <output-file> [options]
 
 ```bash
 # Basic minification with all optimizations enabled
-stormworks-lua-minifier script.lua minified.lua
+swluamin script.lua minified.lua
 
 # Disable string literal optimization (useful if you get errors)
-stormworks-lua-minifier script.lua minified.lua --no-shorten-string-literals
+swluamin script.lua minified.lua --no-shorten-string-literals
 
 # Disable multiple optimizations
-stormworks-lua-minifier script.lua minified.lua --no-rename-globals --no-coalesce-locals
+swluamin script.lua minified.lua --no-rename-globals --no-coalesce-locals
 
 # Show help
-stormworks-lua-minifier --help
+swluamin --help
 ```
 
 ## Features
